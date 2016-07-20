@@ -1,5 +1,5 @@
 {
-    "name": "amstaffix/extjs-bundle",
+    "name": "eadanilenko/extjs-bundle",
     "type": "symfony-bundle",
     "description": "Use ExtJs with Symfony 2",
     "keywords": ["extjs", "bundle", "symfony2"],
@@ -22,20 +22,18 @@
     "require": {
         "php": "~5.4",
         "doctrine/orm": "^2.2.3",
-        "doctrine/doctrine-bundle": "~1.0",
-        "symfony/framework-bundle": "~2.3",
-        "symfony/twig-bundle": "~2.3",
-        "jms/serializer": "~1.0",
-        "jms/serializer-bundle": "~1.0",
+        "doctrine/doctrine-bundle": "^1.0",
+        "symfony/framework-bundle": "^2.3",
+        "symfony/twig-bundle": "^2.3",
+        "jms/serializer": "^1.0",
+        "jms/serializer-bundle": "^1.0",
         "jms/di-extra-bundle": "~1.4",
         "sensio/generator-bundle": "~2.3",
-        "friendsofsymfony/rest-bundle": "~1.0",
+        "friendsofsymfony/rest-bundle": "^1.7",
         "incenteev/composer-parameter-handler": "~2.0"
     },
     "require-dev": {
-        "doctrine/mongodb-odm": "~1.0",
-        "doctrine/mongodb-odm-bundle": "~3.0",
-        "symfony/symfony": "~2.3"
+        "symfony/symfony": "^2.3"
     },
     "scripts": {
         "post-install-cmd": [
